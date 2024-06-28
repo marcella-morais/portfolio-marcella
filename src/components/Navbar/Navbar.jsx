@@ -16,24 +16,24 @@ const Navbar = () => {
 
         <nav className="nav-wrapper">
             <div className="nav-content">
-                <img className="logo" src="../public/assets/images/logo.png" alt="" />
+                <img className="logo" src="/assets/images/logo-mm.png" alt="" />
 
                 <ul>
                     <li>
-                        <a className="menu-item" href="">Home</a>
+                        <a className="menu-item" href="">Início</a>
                     </li>
                     <li>
                         <a className="menu-item" href="">Skills</a>
                     </li>
                     <li>
-                        <a className="menu-item" href="">Work Experience</a>
+                        <a className="menu-item" href="">Experiência</a>
                     </li>
                     <li>
-                        <a className="menu-item" href="">Contact Me</a>
+                        <a className="menu-item" href="">Contato</a>
                     </li>
 
                     <button className="contact-btn" onClick={() => {}}>
-                        Hire Me
+                        Contrate-me
                     </button>
                 </ul>
 
