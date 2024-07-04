@@ -8,11 +8,11 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
         onClick={toggleMenu}>
 
             <div className="mobile-menu-container">
-                <img className="logo" src="../../public/assets/images/logo.png" alt="" />
+                <img className="logo" src="/assets/images/logo-mm.png" alt="" />
                 
                 <ul>
                     <li>
-                        <a className="menu-item" href="">Home</a>
+                        <a className="menu-item" href="">Início</a>
                     </li>
 
                     <li>
@@ -20,15 +20,15 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                     </li>
 
                     <li>
-                        <a className="menu-item" href="">Work Experience</a>
+                        <a className="menu-item" href="">Experiência</a>
                     </li>
 
                     <li>
-                        <a className="menu-item" href="">Contact Me</a>
+                        <a className="menu-item" href="">Contato</a>
                     </li>
 
                     <button className="contact-btn" onClick={() => {}}>
-                        Hire Me
+                        Contrate-me
                     </button>
                 </ul>
             </div>
